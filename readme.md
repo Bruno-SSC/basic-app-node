@@ -1,5 +1,9 @@
 # Aplicação node simples 
 
+## Aviso
+
+Esse não foi um projeto pensado para publicação. É só um dos meus projetos pessoais para estudo. Apenas deixo público a fins de mostrar como faço. Leve os muitos comentários nos arquivos esportivamente :)
+
 ## Front
 
 O front-end desse sistema foi desenvolvido através do seguinte tutorial: [Markzuel](https://youtu.be/69-WfrVBli8).

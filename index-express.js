@@ -6,10 +6,10 @@ const app = express()
 // Note: sabe o arquivo "index-padrao" né? aquilo é uma aplicação node que inicia o servidor usando o node puro. Essa linha define aquilo, mas com o express então só de usar o express() já é definida aquela aplicação.
 
 const path = require('path');
-// Note: path é nativo do node
+// Note: path é dependencia nativa do node
 
 const router = express.Router();
-// Note: esse método serve para definir rotas. As rotas vão ser definidas a baixo.
+// Note: esse método .router serve para definir rotas. As rotas vão ser definidas a baixo.
 
 router.get('/', function(req, res){
     res.sendFile(path.join(__dirname + "/index.html"))
@@ -26,7 +26,7 @@ router.get('/', function(req, res){
 // Note: Cada rota é como um evento esperando para ser acionado.
 
 
-// Note: lembra que express() define uma aplicação node para gerar/ligar o servidor?
+// Note: lembra que express() define uma aplicação node para gerar/ligar o servidor e a guardamos na variável app? chegou a hora de usar a aplicação
 
 app.use('/', router);
 // Note: aqui é definido quais rotas devem ser usadas no servidor
