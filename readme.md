@@ -27,8 +27,9 @@ Se for executar o projeto pode usar tanto o index-express.js quanto o index-padr
 ## Como testar
 
 1. Com o terminal, navegue até a pasta do projeto que baixou.
-2. De um "npm install" no terminal  e ele baixará as dependências necessárias. Pode checar quais são no package.json
-3. Com o node instalado, execute node index-express.js ou index-padrao.js
+2. Se não tiver o node, instale.
+3. De um "npm install" no terminal e ele baixará as dependências necessárias. Pode checar quais são no package.json.
+3. Execute node index-express.js ou index-padrao.js
 4. A aplicação será executada no localhost, porta 3000.
 
 <h2 align="center"> Tecnologias usadas 💻 </h2>
